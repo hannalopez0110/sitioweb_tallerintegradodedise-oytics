@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <meta name="keywords" 
+      content="neolimplex, limpieza, servicio de limpieza, limpieza express, desinfeccion, limpieza profunda" />
+      <meta name="description" 
+      content="Neolimplex es una empresa dedicada a la limpieza de interiores, enfocada en brindar espacios limpios, ordenados y saludables para hogares, oficinas y negocios. La empresa ofrece un servicio profesional, eficiente y confiable, utilizando productos adecuados que garantizan higiene y cuidado de los espacios." />
+      <meta name="author" 
+      content="Valeria Barbosa" />
+      <meta name="viewport" content="width=device-width, user-scalable=yes">
+      <title>NEOLIMPLEX</title>
+      <link rel="stylesheet" href="CSS3_barra.css">
+      <link rel="stylesheet" href="CSS3_estilos.css">
+      <link rel="icon" type="image/jpeg" href="LOGONEOLIMPLEX.jpg"
+   </head>
+   <body>
+       <HEADER class="header">
+      <div class="texto"></div>
+         <p align="center">
+         <img src="logotransparente.png" width="20%">
+         </p>
+         <h1>NEOLIMPLEX</h1>
+         <h2>Tu tiempo y espacio limpios</h2>
+      </div>
+      </HEADER>
+      <nav class="navbar">
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios_vale.html">Nuestros servicios</a></li>
+        <li><a href="mision_hanna.html">¿Quiénes somos?</a></li>
+        <li><a href="reseñas_vale-b.html">Nuestro trabajo</a></li>
+        <li><a href="formulario_goretti.html">¡Contáctanos!</a></li>
+    </ul>
+</nav>
+      <SECTION class="trabajo">
+         <h1>Nuestro trabajo</h1>
+         <h2 class="subtitulo">¿Por qué el interés?</h2>
+         <div class="contenido">
+            <p>El interés por fundar Neolimplex surge a partir de la observación de la necesidad constante de contar con espacios limpios y ordenados, así como de la falta de servicios de limpieza que ofrezcan rapidez, confianza y disponibilidad inmediata.<br>
+Muchas personas requieren apoyo en situaciones inesperadas, como visitas imprevistas, eventos o emergencias, y no siempre encuentran una solución rápida y profesional.<br>
+Ante esta situación, nace Neolimplex con la intención de brindar un servicio eficiente, responsable y accesible, enfocado en facilitar la vida de las personas y mejorar su bienestar a través de la limpieza de interiores.<br></p></div>
+          <div class="galeria">
+    <img src="img 1.jpeg" onclick="abrirModal(this)">
+    <img src="img 2.jpg" onclick="abrirModal(this)">
+    <img src="img 3.jpeg" onclick="abrirModal(this)">
+         </div>
+         <div id="modal" class="modal" onclick="cerrarModal()">
+    <img id="imgGrande">
+         </div>
+      </SECTION>
+      <script>
+function abrirModal(img) {
+    document.getElementById("modal").style.display = "flex";
+    document.getElementById("imgGrande").src = img.src;
+}
+
+function cerrarModal() {
+    document.getElementById("modal").style.display = "none";
+}
+</script>
+      <FOOTER align="right">
+        <h6>NEOLIMPLEX | @neo.limplex | 33 3141 1929<br></h6>
+   </FOOTER>
+   </body>
+</html>

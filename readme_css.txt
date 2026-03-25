@@ -1,0 +1,1 @@
+El javacript se encuentra dentro de uno de los archivos html
